@@ -48,7 +48,7 @@ def winner(board)
   #   "O"
   # else
   #   nil
-  end
+  # end
 end
 
 # Define your WIN_COMBINATIONS constant
