@@ -44,8 +44,8 @@ def winner(board)
   if won?(board)
     board[token]
   elsif draw?(board)
-    nil  
-    
+    nil
+
   end
 end
 
