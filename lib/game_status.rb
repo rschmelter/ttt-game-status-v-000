@@ -45,7 +45,7 @@ def winner(board)
     "X"
   elsif token == "O"
     "O"
-  else 
+  else
     nil
   end
 end
