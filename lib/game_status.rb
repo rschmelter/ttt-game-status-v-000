@@ -41,12 +41,13 @@ end
 
 def winner(board)
   token = won?(board)[0]
-  if board[token] == "X"
-    "X"
-  elsif board[token] == "O"
-    "O"
-  else
-    nil
+    board[token]
+  # if board[token] == "X"
+  #   "X"
+  # elsif board[token] == "O"
+  #   "O"
+  # else
+  #   nil
   end
 end
 
