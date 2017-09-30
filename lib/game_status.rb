@@ -42,9 +42,6 @@ end
 def winner(board)
   token = won?(board)[0]
     board[token]
-    if draw?(board)
-      nil
-    end
 end
 
 # Define your WIN_COMBINATIONS constant
