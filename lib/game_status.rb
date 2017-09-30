@@ -40,9 +40,12 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)[0]
-     won?(board)[0]
-  else
+  token = won?(board)[0]
+  if token == "X"
+    "X"
+  elsif token == "O"
+    "O"
+  else 
     nil
   end
 end
