@@ -45,7 +45,6 @@ def winner(board)
     board[token]
   else
     nil
-
   end
 end
 
