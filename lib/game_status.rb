@@ -41,9 +41,9 @@ end
 
 def winner(board)
   token = won?(board)[0]
-  if token == "X"
+  if token[0] == "X"
     "X"
-  elsif token == "O"
+  elsif token[0] == "O"
     "O"
   else
     nil
